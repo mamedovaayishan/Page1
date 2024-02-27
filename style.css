@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e5e5e5;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 100%;
+    height: auto;
+    color: black;
+    display: flex;
+    flex-direction: space-between; 
+    align-items: center; 
+
+    
+}
+.main .content{
+    position:relative;
+    width: 100%; 
+    max-width: 740px; 
+    height: auto; 
+    background-color: #fff;
+    z-index: 1;
+    padding: 70px 40px; 
+    text-align: left; 
+    left: 80px;
+}
+.main .image{
+    position:relative;
+    width: 100%; 
+    max-width: 600px; 
+    z-index: 0;
+    margin-top: 60px;
+
+}
+
+.main .image img{
+    width: 100%; 
+    height: auto; 
+}
+
+.main .content h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+
+}
+.main .content h2{
+    line-height: 1.1;
+    font-family: "Alex Brush";
+    font-size: 3.75rem;
+    font-weight: 500;
+
+}
+.main .content p{
+    display: flex;
+    justify-content: end;
+    width: 80%;
+    margin: 0 60px;
+    text-align: right;
+    
+}
+.main .content a{
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 2px;
+    display: inline-block; 
+    border-width: 0 0 2px ;
+    margin: 30px 20px;
+    border-color: #000000;
+    text-align: right;
+}
